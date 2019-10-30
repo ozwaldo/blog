@@ -1,0 +1,110 @@
+header {
+    border-bottom: 1px solid #cecece;
+}
+
+.blog-logo {
+    font-family: Impact, sans-serif;
+    font-size: 2.5rem;
+    /* 1 em = M */
+}
+
+.jumbotron {
+    background-image: linear-gradient(
+            to right bottom, 
+            rgba(94, 207, 109, 0.589), 
+            rgba(98, 127, 224, 0.596)), 
+        url(../img/bg-jumbotron.jpg);
+    background-size: cover;
+}
+
+.card-body {
+    background-image: linear-gradient(
+        rgba(192, 192, 192, 0.1),
+        rgba(53, 53, 53, 0.7)
+    );
+}
+
+.blog-footer {
+    padding: 2.5rem 0;
+    color: #f3f3f3;
+    background-color: #4b4b4b;    
+}
+
+ul.redes-sociales {
+    list-style: none;
+    display: inline;
+  }
+  
+  ul.redes-sociales li {
+    display: inline;
+    margin-left: 5px;
+    margin-right: 5px;
+  }
+  
+  .redes-sociales a.icoFacebook:hover {
+    background-color: #3b5998;
+  }
+  
+  .redes-sociales a.icoLinkedin:hover {
+    background-color: #007bb7;
+  }
+  
+  .redes-sociales a.icoTwitter:hover {
+      background-color: #00acee;
+    }
+  
+  .redes-sociales a.icoFacebook:hover i,
+  .redes-sociales a.icoLinkedin:hover i, 
+  .redes-sociales a.icoTwitter:hover i {
+    color: #fff;
+  }
+  
+  .redes-sociales a.socialIcon:hover,
+  .socialHoverClass {
+    color: #44bcdd;
+  }
+  
+  .social-circle li a {
+    display: inline-block;
+    position: relative;
+    margin: 0 auto 0 auto;
+    -moz-border-radius: 50%;
+    -webkit-border-radius: 50%;
+    border-radius: 50%;
+    text-align: center;
+    width: 30px;
+    height: 30px;
+    font-size: 15px;
+  }
+  
+  .social-circle li i {
+    margin: 0;
+    line-height: 30px;
+    text-align: center;
+  }
+  
+  .social-circle li a:hover i,
+  .triggeredHover {
+    -moz-transform: rotate(360deg);
+    -webkit-transform: rotate(360deg);
+    -ms--transform: rotate(360deg);
+    transform: rotate(360deg);
+    -webkit-transition: all 0.2s;
+    -moz-transition: all 0.2s;
+    -o-transition: all 0.2s;
+    -ms-transition: all 0.2s;
+    transition: all 0.2s;
+  }
+  
+  .social-circle i {
+    color: #595959;
+    -webkit-transition: all 0.8s;
+    -moz-transition: all 0.8s;
+    -o-transition: all 0.8s;
+    -ms-transition: all 0.8s;
+    transition: all 0.8s;
+  }
+  
+  .redes-sociales a {
+    background-color: #f9f9f9;
+  }
